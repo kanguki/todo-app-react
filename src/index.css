@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.alert{
+  visibility: hidden;
+  transition-delay: 500;
+  color: red;
+  font-family: cursive;
+  font-weight: bold;
+}
+.highlight{
+  visibility: visible;
+}
+.collection-item:hover{
+  background: yellowgreen;
+  cursor: pointer;
+}
+
